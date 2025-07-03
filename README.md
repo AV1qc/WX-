@@ -6,13 +6,10 @@
 ## 文件结构
 ```
 公众号数据采集/
-├── 1.csv               # 输入数据CSV文件
 ├── extract_writer.py   # 公众号文章内容与阅读数提取工具
 ├── 111world图片提取.py  # Word文档图片提取工具
 ├── 222微信网页图片提取.py # 网页图片批量下载工具
 ├── 333图片加水印.py     # 图片批量加水印工具
-├── 发表记录.txt         # 公众号发表记录HTML文件
-└── 输出结果_含阅读数.csv # 处理后的输出CSV文件
 ```
 
 ## 功能说明
@@ -35,10 +32,10 @@
 - 输出处理后的图片
 
 ## 环境要求
-- Python 3.6+
+- Python 3.6+   - Python 3.6
 - 依赖库：
   ```
-  pip install requests beautifulsoup4 python-docx pillow
+  pip install requests beautifulsoup4 python-docx pillowPIP安装请求beautifulsoup4 python-docx枕头
   ```
 
 ## 使用方法
