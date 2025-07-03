@@ -35,8 +35,9 @@
 - Python 3.6+   - Python 3.6
 - 依赖库：
   ```
-  pip install requests beautifulsoup4 python-docx pillowPIP安装请求beautifulsoup4 python-docx枕头
+  pip install requests beautifulsoup4 python-docx pillow
   ```
+
 
 ## 使用方法
 ### 数据提取流程
