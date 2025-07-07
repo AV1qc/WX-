@@ -77,7 +77,7 @@ def process_images(input_folder, output_folder, watermark_path):
 def main():
     input_folder = 'C:\\Users\\联想\\Desktop\\原图'  # 固定输入文件夹路径
     output_folder = 'C:\\Users\\联想\\Desktop\\批处理照片'  # 固定输出文件夹路径
-    watermark_path = 'F:\\视频包装\\大众网、海报新闻单独LOGO\\2023.4水印\\彩色图标.png'  # 固定水印图片路径
+    watermark_path = 'F:\\视频包装\\*.png'  # 固定水印图片路径
     
     process_images(input_folder, output_folder, watermark_path)
 
